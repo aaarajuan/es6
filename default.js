@@ -8,7 +8,7 @@ function add(num1=0, num2=0) {
 // const sum = add(5);
 // const sum = add();
 
-function fullName(first, last) {
+function fullName(first, last = '') {
     const full = first + ' ' + last;
     console.log(full);
     return full;
